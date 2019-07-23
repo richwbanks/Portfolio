@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.centered_div {
+	margin: auto;
+}
+
 /* Basic */
 
 	html {
