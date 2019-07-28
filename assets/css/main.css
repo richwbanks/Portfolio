@@ -2727,4 +2727,95 @@ input, select, textarea {
   	position: static;
 } 
 
+/* Project Icons */
+
+.project-div {
+	border: transparent 0px solid;
+}
+
+.tech-icon-container {
+	margin: 0.5em 0;
+	padding-left: 0;
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: center;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	border-top: rgb(31,40,51,0.2) solid 1px;
+	border-bottom: rgb(31,40,51,0.2) solid 1px;
+	padding-top: 12px;
+	padding-bottom: 0px;
+}
+
+.language-icon-inner {
+	opacity: 1;
+}
+
+.tech-icon-wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	color: rgba(0,0,0,0.54);
+	font-weight: 400;
+	font-size: 1rem;
+	border-radius: 2px;
+}
+
+.small-margin {
+	margin: 2px !important;
+	padding: 2px !important;
+}
+
+.tech-icon {
+	margin: auto 3px;
+	height: 2.2em;
+}
+
+/* Tooltip */
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted transparent;
+}
+  
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 50px;
+	font-size: 10px;
+	background-color: rgb(31,40,51, 0.8);
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 0px 0;
+  
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+}
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+/* Visit Site and View Repo Buttons */
+
+.bottom_nav_buttons {
+	margin-left: 0em;
+	margin-top: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.visit_site {
+	padding: 0;
+	text-align: center;
+}
+
+.view_repo {
+	padding: 0;
+	text-align: center;
+}
+
 
