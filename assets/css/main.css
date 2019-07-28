@@ -2742,8 +2742,8 @@ input, select, textarea {
 	justify-content: center;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 400;
-	border-top: rgb(31,40,51,0.2) solid 1px;
-	border-bottom: rgb(31,40,51,0.2) solid 1px;
+	border-top: rgb(31,40,51) solid 1px;
+	border-bottom: rgb(31,40,51) solid 1px;
 	padding-top: 12px;
 	padding-bottom: 0px;
 }
@@ -2756,7 +2756,7 @@ input, select, textarea {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
-	color: rgba(0,0,0,0.54);
+	color: rgba(0,0,0);
 	font-weight: 400;
 	font-size: 1rem;
 	border-radius: 2px;
@@ -2784,7 +2784,7 @@ input, select, textarea {
 	visibility: hidden;
 	width: 50px;
 	font-size: 10px;
-	background-color: rgb(31,40,51, 0.8);
+	background-color: rgb(31,40,51);
 	color: #fff;
 	text-align: center;
 	border-radius: 6px;
